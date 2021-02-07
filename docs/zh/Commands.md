@@ -1,4 +1,4 @@
-# CLI命令行
+# CLI Commands
 
 For a complete list of available commands, simply run `venus --help` in your terminal.
 
@@ -43,6 +43,7 @@ For a complete list of available commands, simply run `venus --help` in your ter
     venus log                    - Interact with the daemon event log output
     venus protocol               - Show protocol parameter details
     venus version                - Show venus version information
+    venus seed                   - Seal sectors for genesis miner
 ```
 
 
@@ -171,7 +172,7 @@ For a complete list of available commands, simply run `venus --help` in your ter
 
     ```sh
         ./venus wallet import
-        ./venus wallet export 
+        ./venus wallet export <password>
     ```
 
 6. query balance of address
@@ -179,6 +180,27 @@ For a complete list of available commands, simply run `venus --help` in your ter
     ```sh
         ./venus wallet balance f3rjuxqnsjk7wuuzf3rqwsfxpbmqp23dn6ik5vyow2ntw5sgdxyijh7cfbujbmwtzdpii6ikunumez55jcxbbq
         0 FIL
+    ```
+
+7. set wallet password
+
+    ```sh
+        ./venus wallet set-password <password>
+    ```
+
+8. lock and unlock wallet
+
+    ```sh
+        ./venus wallet lock <password>
+        ./venus wallet unlock <password>
+    ```
+
+9. show unlocked wallet address
+
+    ```sh
+        ./venus wallet unlock-list
+
+        t3ruenel3fdrlc3a7mswvefophe4tt4bewqp3d74kwyhlwlmv6kowsepjklesj2e54vfbun53jm3hgghtsi7eq
     ```
 
 ##  Sync commnad

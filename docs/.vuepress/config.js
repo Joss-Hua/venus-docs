@@ -64,6 +64,7 @@ module.exports = {
           ['Getting-Started.md', 'Getting started'],
           ['How-to-connect-network.md', 'How to Start network'],
           ['How-to-setup_2knet.md', 'How to Start a local network'],
+          ['How-to-use-wallet.md', 'How to use wallet'],
           ['Mining-Filecoin.md', 'Mining Filecoin'],
           ['Troubleshooting-&-FAQ.md', 'Troubleshooting & FAQ'],
           ['How-To-Contribute-Docs.md', 'Welcome to Contributing'],
